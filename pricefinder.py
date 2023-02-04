@@ -36,7 +36,7 @@ class PriceFinder:
         self.chain_collection_list= ["arbys", "bk", "bojangles", "canes", "cfa", "deltaco", "dominos", "fiveguys", "kfc", "littlecaesars", "mcdonalds", "papajohns", "pizzahut", "popeyes", "sonic", "steaknshake", "tacobell", "wendys", "zaxbys"]
 
         # creating list of options the user will be able to choose from
-        self.foods = [ 'nugget','finger', 'burger', 'chicken sandwhich', 'chicken sandwich', 'fries', 'salads', 'pizza', 'tacos', 'tacos', 'burritos', 'nachos', 'breadsticks' ]
+        self.foods = [ 'nugget','finger', 'burger', 'chicken sandwich', 'fries', 'salads', 'pizza', 'tacos', 'burritos', 'nachos', 'breadsticks' ]
         self.drinks = [ 'drink', 'bottled water', 'lemonade', 'sweet tea' ]
         self.desserts = [ 'milkshakes', 'cookies']
 
@@ -61,10 +61,14 @@ class PriceFinder:
         # options is a LIST of STRINGS containing all of the user's picks 
         
         # finding the index for the chain the user selected in the chain_collection
+
+        one_option = pd.DataFrame({'Type': [], 'Food': [], 'Size': [], 'Price':[]}) # will help us combine all menu items for the options for EVERY chain
+
         for i, item in enumerate(self.chain_collection_list):
             if item == chain:
                 index = i
                 break
+
         
         # grabbing the dataframe for the chosen resturant
         df = self.chain_collection[index]
@@ -72,18 +76,36 @@ class PriceFinder:
         # removing any 'meal' or 'combo' items (we are going to make own combos!)
         df = df[~df['Food'].str.contains('combo', case=False, na=False)]
         df = df[~df['Food'].str.contains('meal', case=False, na=False)]
+        df = df[~df['Food'].str.contains('upsize', case=False, na=False)]
+        df = df[~df['Food'].str.contains('limited', case=False, na=False)]
         df = df[~df['Type'].str.contains('combo', case=False, na=False)]
-        df = df[~df['Type'].str.contains('meal', case=False, na=False)]
+        df = df[~df['Type'].str.contains('limited', case=False, na=False)]
 
+        o = {} # dictionary that helps us collect the menu items for the options 
+
+    # finding all the desired food
+        for j, item in enumerate(options): # loops once through each item in the 'options' list 
         # finding all the desired food
-        for i, item in enumerate(options):
-            # using a mask to filter through the dataframe to choose only what the user picked
-            mask = df['Food'].str.contains(item, case=False, na=False) # filtering out desired food type using a mask
-            options[i] = df[mask] # replacing item name in the list with the filtered df
+
+        # using a mask to filter through the dataframe to choose only what the user picked
+                if df['Food'].str.contains(item, case=False, na=False).any() == True: # making sure that the chain has a menu item for the user's option
+
+                    slice = df[df['Food'].str.contains(item, case=False, na=False)] # filtering out desired food type using a mask
+        
+                    min_index = slice['Price'].idxmin()
+                    min_row = df.loc[min_index]
+                    o.update({self.chain_collection_list[i]+str(j): min_row})  # adding all menu items the chain has for the desired food and adding that slice to the o dictionary 
+
+            
+        this_chain = pd.DataFrame(o)
+        this_chain = this_chain.transpose()
+
+        one_option = pd.concat((one_option,this_chain))
+
 
         # this will return a list with all availabe menu items matching each option submitted 
         # Each index is a dataframe slice that corresponds with the index of the submitted option list  
-        return options 
+        return one_option
 
 
     # ALL CHAIN FUNCTION
@@ -91,7 +113,7 @@ class PriceFinder:
 
     def all_chain(self, options):
 
-        all_options = pd.DataFrame({'Type': [], 'Food': [], 'Seiz': [], 'Price':[]}) # will help us combine all menu items for the options for EVERY chain
+        all_options = pd.DataFrame({'Type': [], 'Food': [], 'Size': [], 'Price':[]}) # will help us combine all menu items for the options for EVERY chain
 
 
         for i,chain in enumerate(self.chain_collection): # loops once over every restaurant dataframe in the chain_collection list 
@@ -102,8 +124,8 @@ class PriceFinder:
             df = df[~df['Food'].str.contains('combo', case=False, na=False)]
             df = df[~df['Food'].str.contains('meal', case=False, na=False)]
             df = df[~df['Food'].str.contains('limited', case=False, na=False)]
+            df = df[~df['Food'].str.contains('upsize', case=False, na=False)]
             df = df[~df['Type'].str.contains('combo', case=False, na=False)]
-            df = df[~df['Type'].str.contains('meal', case=False, na=False)]
             df = df[~df['Type'].str.contains('limited', case=False, na=False)]
 
     
