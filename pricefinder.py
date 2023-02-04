@@ -126,6 +126,21 @@ class PriceFinder:
 
             all_options = pd.concat((all_options,this_chain))
 
+        for i, item in enumerate(options):
+            all_options[item] = all_options[all_options['Food'].str.contains(item, case=False, na=False)]['Food']
+
+            all_options.drop(columns=['Food'], inplace=True)
+
+        for i, item in enumerate(options):  
+            all_options.insert(i, item, all_options.pop(item))
+
+        all_options = all_options.reset_index()
+        all_options = all_options.rename({'index': 'chain'}, axis=1) # taking the chain names out of the index and making them a seperate column
+
+        all_options["chain"] = all_options["chain"].str.slice(stop=-1)
+
+        all_options = all_options.to_numpy() # converting to numpy array so it becomes hashable 
+
         return all_options
 
 
