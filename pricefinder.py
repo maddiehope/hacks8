@@ -126,7 +126,7 @@ class PriceFinder:
 
             all_options = pd.concat([all_options,this_chain])
 
-            return all_options
+        return all_options
 
 
 
