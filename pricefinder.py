@@ -43,10 +43,7 @@ class PriceFinder:
 
     # __str__ function to return the collection of dataframes within the chain_collection
     def __str__(self):
-
-        print("The fast food chains included in this class are: ")
-        for item in self.chain_collection_list:
-            return item 
+        return "The fast food chains included in this class are: " + str(self.chain_collection_list)
 
 # FUNCTIONS TO CHOOSE DATA 
 #------------------------------------------------------------------------------------------------------------------------------------
