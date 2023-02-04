@@ -122,7 +122,7 @@ class PriceFinder:
                 all_options.update({self.chain_collection_list[i]:o}) 
                 # each chain has it's own 'o' dictionary, which contains keys of each desired option and pairs of slices containing all menu items per each option
 
-                return all_options
+        return all_options
 
 
 
