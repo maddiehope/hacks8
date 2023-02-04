@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-<form action="/data" method="post">
+<form action="/price" method="post">
   
   <main>
     <section id="Price Jam">
       <div class="select-container">
 
         
-        <select id="restaurant-select" class="select-dropdown">
+        <select id="chain-select" class="select-dropdown">
         <option value="chain_collection">All Restaurants</option>
         <option value="arbys">Arby's</option>
         <option value="bk">Burger King</option>
@@ -31,7 +31,7 @@
         </select>
 
         
-        <select id="recipe-select">
+        <select id="food-select1" required> <!-- at least one selection is required or the void.html template is called -->
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -42,7 +42,7 @@
         </select>
 
         
-        <select id="recipe-select">
+        <select id="food-select2">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -53,7 +53,7 @@
         </select>
           
           
-        <select id="recipe-select">
+        <select id="food-select3">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -64,7 +64,7 @@
         </select> 
 
             
-        <select id="recipe-select">
+        <select id="food-select4">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -75,7 +75,7 @@
         </select>
 
         
-        <select id="recipe-select">
+        <select id="food-select5">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -85,7 +85,7 @@
           <option value="dessert">Dessert</option>
         </select>
 
-    <input type="submit" value="Sumbit Entry"/>
+    <br><input type="submit" value="SUBMIT"/><br>
         
     </section>
   </main>
