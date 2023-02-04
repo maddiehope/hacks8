@@ -150,7 +150,7 @@ class PriceFinder:
                 this_chain = this_chain.transpose()
                 #print(this_chain)
 
-        all_options = pd.concat((all_options,this_chain)) 
+            all_options = pd.concat((all_options,this_chain)) 
 
         for i, item in enumerate(options):
             all_options[item] = all_options[all_options['Food'].str.contains(item, case=False, na=False)]['Food']
