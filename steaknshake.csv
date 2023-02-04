@@ -1,0 +1,152 @@
+Type,Food,Size,Price
+MealsCombo Includes Drink and French Fries,Double Steakburger with Cheese,,6.02
+MealsCombo Includes Drink and French Fries,Single Steakburger with Cheese,,5.19
+MealsCombo Includes Drink and French Fries,Frisco Melt,,6.75
+MealsCombo Includes Drink and French Fries,Bacon ‘n Cheese Double,,6.23
+MealsCombo Includes Drink and French Fries,Wisconsin Buttery,,6.02
+MealsCombo Includes Drink and French Fries,Cheesy Cheddar,,6.54
+MealsCombo Includes Drink and French Fries,Western BBQ ‘n Bacon,,6.23
+MealsCombo Includes Drink and French Fries,Portobello ‘n Swiss,,6.75
+MealsCombo Includes Drink and French Fries,Steak Frank,,4.46
+MealsCombo Includes Drink and French Fries,Chicago-Style Steak Frank,,5.19
+MealsCombo Includes Drink and French Fries,Philly Double Steakburger,,6.23
+MealsCombo Includes Drink and French Fries,Bacon Lovers Steakburger (Limited Time),,6.75
+MealsCombo Includes Drink and French Fries,Sriracha Steakburger (Limited Time),,6.23
+Meals under $4,Double Steakburger with Cheese ‘n Fries,,4.15
+Meals under $4,Single Bacon Cheese Steakburger ‘n Fries,,4.15
+Meals under $4,Chicken Fingers ‘n Fries,,4.15
+Meals under $4,Triple Steakburger ‘n Fries,,4.15
+Meals under $4,Garlic Double Steakburger ‘n Fries,,4.15
+Meals under $4,Cajun Double Steakburger ‘n Fries (Limited Time),,4.15
+Meals under $4,Guacamole Single Steakburger ‘n Fries,,4.15
+Meals under $4,Jamaican Jerk Double Steakburger ‘n Fries,,4.15
+Meals under $4,Nacho Cheese Double Steakburger ‘n Fries,,4.15
+Meals under $4,Prince of Royal Single Steakburger ‘n Fries,,4.15
+Meals under $4,Grilled Cheesy Steakburger Melt ‘n Fries (Limited Time),,4.15
+Signature Steak Franks,Classic Footlong ‘n Fries,,4.15
+Signature Steak Franks,All American Footlong ‘n Fries,,4.15
+Signature Steak Franks,Chicago-Style Footlong ‘n Fries,,4.15
+Signature Steak Franks,Chili Cheese Footlong ‘n Fries,,4.15
+Signature Steak Franks,Steak Frank ‘n Fries,,3.63
+Signature Steak Franks,Chicago-Style Steak Frank ‘n Fries,,4.15
+Signature Steak Franks,Chili Cheese Steak Frank ‘n Fries,,4.15
+Salads ‘n Sandwiches,Taco Salad,,4.15
+Salads ‘n Sandwiches,Grilled Chicken Taco Salad,,5.19
+Salads ‘n Sandwiches,Grilled Chicken Salad,,6.02
+Salads ‘n Sandwiches,Fried Chicken Salad,,6.02
+Salads ‘n Sandwiches,Spicy Chicken Sandwich – Combo,,6.23
+Salads ‘n Sandwiches,Grilled Chicken Sandwich – Combo,,6.23
+Salads ‘n Sandwiches,3 Steakburger Shooters® ‘n Fries,,4.15
+Salads ‘n Sandwiches,3 Cheese Steakburger Shooters® ‘n Fries,,4.45
+Salads ‘n Sandwiches,Steakburger Shooter,,0.93
+Salads ‘n Sandwiches,Steakburger Shooter with Cheese,,1.03
+Salads ‘n Sandwiches,Turkey Club ‘n Fries,,6.02
+Salads ‘n Sandwiches,Grilled Cheese Sandwich ‘n Fries,,3.63
+Salads ‘n Sandwiches,Spicy Chicken Sandwich ‘n Fries,,5.19
+Salads ‘n Sandwiches,Grilled Chicken Sandwich ‘n Fries,,5.19
+Salads ‘n Sandwiches,BLT ‘n Fries,,4.15
+Classic MeltsServed with Fries,American Melt,,5.71
+Classic MeltsServed with Fries,Grilled Cheese Melt,,4.15
+Classic MeltsServed with Fries,Frisco Melt,,5.71
+Classic MeltsServed with Fries,Patty Melt,,5.71
+Classic MeltsServed with Fries,Chicken Melt,,6.23
+Chili,Genuine Chili,Cup,2.38
+Chili,Genuine Chili,Bowl,3.11
+Chili,Chili Mac,,4.15
+Chili,Chili 5-Way,,5.19
+Chili,Chili 3-Way,,4.15
+Chili,Chili Mac Supreme,,5.19
+Chili,Chili Deluxe,Cup,3.11
+Chili,Chili Deluxe,Bowl,4.15
+Sides,Thin ‘n Crispy Fries,Small,1.86
+Sides,Thin ‘n Crispy Fries,Regular,2.07
+Sides,Thin ‘n Crispy Fries,Large,2.69
+Sides,Cheese Fries,Small,2.38
+Sides,Cheese Fries,Regular,3.11
+Sides,Cheese Fries,Large,3.73
+Sides,Chili Cheese Fries,Small,2.9
+Sides,Chili Cheese Fries,Regular,3.63
+Sides,Chili Cheese Fries,Large,4.98
+Sides,"Cajun, Parmesan ‘N Garlic, Salt ‘N Vinegar or Sea Salt ‘N Cracked Black Peppers Fries",Small,2.16
+Sides,"Cajun, Parmesan ‘N Garlic, Salt ‘N Vinegar or Sea Salt ‘N Cracked Black Peppers Fries",Regular,2.48
+Sides,"Cajun, Parmesan ‘N Garlic, Salt ‘N Vinegar or Sea Salt ‘N Cracked Black Peppers Fries",Large,3.2
+Sides,Onion Rings,Regular,2.38
+Sides,Onion Rings,Large,3.11
+Sides,Garden Salad,,2.07
+Sides,Vegetable Soup,Cup,2.38
+Sides,Vegetable Soup,Bowl,2.8
+Sides,Creamy Coleslaw,,1.86
+Sides,Applesauce,,1.03
+Sides,Baked Beans,,2.07
+Sides,Cottage Cheese,,2.07
+Beverages,Iced Tea (Sweetened or Unsweetened),Any Size,1.04
+Beverages,Soft Drink,Regular,1.86
+Beverages,Soft Drink,Large,2.38
+Beverages,Red Bull Energy Drink,,2.07
+Beverages,Pure Life Bottled Water,,1.86
+Beverages,Premium Blend Coffee,Regular,1.04
+Beverages,Premium Blend Coffee,Large,1.55
+Beverages,Hot Tea,,1.04
+Beverages,Hot Chocolate,,1.45
+Beverages,Milk or Chocolate Milk,,1.65
+Desserts,Sundae,,2.59
+Desserts,Oreo® Ice Cream Sandwich,,1.03
+Desserts,Root Beer Float,,2.69
+Desserts,Brownie Fudge Sundae,,3.11
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Steakburger,,3.84
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,2 Steakburger Minis,,4.15
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Grilled Cheese,,3.63
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Mini Corn Dogs,,3.84
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Macaroni & Cheese,,3.84
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Chicken Fingers,,4.15
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Hot Dog,,4.15
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Kids’ Classic Milk Shake,,2.38
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Kids’ Specialty Milk Shake,,3.01
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Kids’ Side by Side Milk Shake,,2.9
+Kids’ MealsIncludes Soft Drink or Apple Juice and Choice of Fries or Applesauce,Kids’ Soft Drink,,1.24
+Kids’ Breakfast,"Egg, Bacon or Sausage ‘n Toast",,2.59
+Kids’ Breakfast,Breakfast Minis,2 Pc.,2.07
+Kids’ Breakfast,Chocolate Chip Pancakes,,2.59
+Kids’ Breakfast,Silver Dollar Pancakes,,1.55
+BreakfastCombo Includes Hash Browns and Coffee,Sausage Biscuit,,1.55
+BreakfastCombo Includes Hash Browns and Coffee,Sausage Biscuit – Combo,,3.63
+BreakfastCombo Includes Hash Browns and Coffee,Sausage or Bacon Egg ‘n Cheese Biscuit,,2.59
+BreakfastCombo Includes Hash Browns and Coffee,Sausage or Bacon Egg ‘n Cheese Biscuit – Combo,,4.67
+BreakfastCombo Includes Hash Browns and Coffee,Sausage ‘n Egg Biscuit,,2.07
+BreakfastCombo Includes Hash Browns and Coffee,Sausage ‘n Egg Biscuit – Combo,,4.15
+BreakfastCombo Includes Hash Browns and Coffee,Sausage or Bacon Bagel Sandwich,,2.9
+BreakfastCombo Includes Hash Browns and Coffee,Sausage or Bacon Bagel Sandwich – Combo,,4.98
+BreakfastCombo Includes Hash Browns and Coffee,2 Sausage or Bacon Breakfast Shooters,,2.07
+BreakfastCombo Includes Hash Browns and Coffee,2 Sausage or Bacon Breakfast Shooters – Combo,,4.15
+BreakfastCombo Includes Hash Browns and Coffee,Royale Steakburger,,4.46
+BreakfastCombo Includes Hash Browns and Coffee,Royale Steakburger – Combo,,6.23
+BreakfastCombo Includes Hash Browns and Coffee,"Breakfast Taco (Sausage, Egg ‘n Cheese)",,1.03
+BreakfastCombo Includes Hash Browns and Coffee,Breakfast Taco (Potato ‘n Egg),,1.03
+BreakfastCombo Includes Hash Browns and Coffee,Breakfast Bowl (Biscuit ‘n Gravy),,2.59
+BreakfastCombo Includes Hash Browns and Coffee,"Breakfast Bowl (Sausage, Egg ‘n Cheese with Hash Browns)",,2.07
+BreakfastCombo Includes Hash Browns and Coffee,Fruit ‘n Yogurt Parfait,,1.03
+BreakfastCombo Includes Hash Browns and Coffee,Buttermilk Biscuit,,1.24
+BreakfastCombo Includes Hash Browns and Coffee,Hash Browns,,1.86
+BreakfastCombo Includes Hash Browns and Coffee,Sausage Gravy ‘n Biscuit,1 Pc.,2.59
+BreakfastCombo Includes Hash Browns and Coffee,Sausage Gravy ‘n Biscuits,2 Pc.,3.63
+BreakfastCombo Includes Hash Browns and Coffee,Blueberry Pancakes,,4.67
+BreakfastCombo Includes Hash Browns and Coffee,Chocolate Chip Pancakes,,4.67
+BreakfastCombo Includes Hash Browns and Coffee,Cakes ‘n Eggs Pancakes,,5.19
+BreakfastCombo Includes Hash Browns and Coffee,Homestyle Breakfast,,5.71
+BreakfastCombo Includes Hash Browns and Coffee,Classic One-Egg Breakfast,,4.15
+BreakfastCombo Includes Hash Browns and Coffee,Classic Two-Egg Breakfast,,4.67
+BreakfastCombo Includes Hash Browns and Coffee,Cheddar Scrambler,,5.71
+BreakfastCombo Includes Hash Browns and Coffee,Pancakes,2 Pc.,2.07
+BreakfastCombo Includes Hash Browns and Coffee,One Egg,,1.03
+BreakfastCombo Includes Hash Browns and Coffee,Bacon,2 Pc.,1.86
+BreakfastCombo Includes Hash Browns and Coffee,Bacon,4 Pc.,3.63
+BreakfastCombo Includes Hash Browns and Coffee,Sausage,1 Pc.,2.07
+BreakfastCombo Includes Hash Browns and Coffee,Sausages,2 Pc.,3.84
+BreakfastCombo Includes Hash Browns and Coffee,Toast,,1.24
+BreakfastCombo Includes Hash Browns and Coffee,Bagel,,1.24
+BreakfastCombo Includes Hash Browns and Coffee,Apples ‘n Caramel,,2.07
+BreakfastCombo Includes Hash Browns and Coffee,Fresh Banana,,0.93
+BreakfastCombo Includes Hash Browns and Coffee,Premium Blend Coffee (Regular or Decaf),Regular,1.04
+BreakfastCombo Includes Hash Browns and Coffee,Premium Blend Coffee (Regular or Decaf),Large,1.55
+BreakfastCombo Includes Hash Browns and Coffee,Orange Juice,,1.86
+BreakfastCombo Includes Hash Browns and Coffee,Hot Chocolate,,1.45

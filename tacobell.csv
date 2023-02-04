@@ -1,0 +1,116 @@
+Type,Food,Size,Price
+Tacos,Crunchy Taco,,1.24
+Tacos,Crunchy Taco Supreme,,1.76
+Tacos,Soft Taco,,1.24
+Tacos,Soft Taco Supreme,,1.76
+Tacos,Chicken Soft Taco,,1.86
+Tacos,Grilled Steak Soft Taco,,2.59
+Tacos,Double Decker Taco,,1.97
+Tacos,Double Decker Taco Supreme,,2.38
+Tacos,Doritos Locos Taco (Nacho Cheese),Regular,1.55
+Tacos,Doritos Locos Taco (Nacho Cheese),Supreme,1.97
+Tacos,Doritos Locos Taco (Cool Ranch),Regular,1.55
+Tacos,Doritos Locos Taco (Cool Ranch),Supreme,1.97
+Tacos,Doritos Locos Taco (Fiery),Regular,1.55
+Tacos,Doritos Locos Taco (Fiery),Supreme,1.97
+Tacos,Crunchy Taco 12 Pc. Box,12 Pc.,12.47
+Burritos,Bean Burrito,,1.34
+Burritos,Beefy 5-Layer Burrito,,1.76
+Burritos,Chicken Burrito,,1.86
+Burritos,Cheese Potato Burrito,,2.49
+Burritos,Combo Burrito,,2.69
+Burritos,Burrito Supreme,,3.32
+Burritos,7-Layer Burrito,,2.59
+Burritos,Black Bean Burrito,,1.86
+Burritos,XXL Grilled Stuft Burrito (Beef),,4.15
+Burritos,XXL Grilled Stuft Burrito (Chicken),,5.19
+Burritos,XXL Grilled Stuft Burrito (Steak),,5.4
+Burritos,Smothered Burrito (Beef),,3.11
+Burritos,Smothered Burrito (Shredded Chicken),,4.15
+Burritos,Smothered Burrito (Steak),,4.36
+Burritos,Chili Cheese Burrito,,1.76
+Nachos,Cheesy Nachos,,1.45
+Nachos,Nacho Supreme,,2.59
+Nachos,Nacho Bellgrande,,3.42
+Specialties,Chalupa Supreme (Beef),,2.59
+Specialties,Chalupa Supreme (Chicken),,3.32
+Specialties,Chalupa Supreme (Steak),,3.53
+Specialties,Mexican Pizza,,3.63
+Specialties,Crunchwrap Supreme,,3.11
+Specialties,Fiesta Taco Salad (Beef),,5.19
+Specialties,Fiesta Taco Salad (Chicken),,5.71
+Specialties,Fiesta Taco Salad (Steak),,6.23
+Specialties,Cheese Quesadilla,,2.59
+Specialties,Quesadilla (Chicken),,3.53
+Specialties,Quesadilla (Steak),,3.73
+Specialties,Cheesy Gordita Crunch,,2.8
+Specialties,Doritos Cheesy Gordita Crunch,,3.11
+Specialties,Gordita Supreme (Beef),,2.59
+Specialties,Gordita Supreme (Chicken),,3.32
+Specialties,Gordita Supreme (Steak),,3.53
+Specialties,Meximelt,,2.28
+Specialties,Double Tostada,,1.65
+Specialties,Quesarito (Beef),,2.69
+Specialties,Quesarito (Chicken),,3.32
+Specialties,Quesarito (Steak),,3.63
+Desserts,Caramel Apple Empanada,,1.04
+Desserts,Cinnabon Delights,2 Pack,1.04
+Desserts,Cinnabon Delights,4 Pack,1.76
+Desserts,Cinnabon Delights,12 Pack,4.67
+Cantina Power Menu,Cantina Power Bowl (Chicken),,5.19
+Cantina Power Menu,Cantina Power Bowl (Veggie),,5.19
+Cantina Power Menu,Cantina Power Bowl (Steak),,5.4
+Cantina Power Menu,Cantina Power Burrito (Chicken),,3.94
+Cantina Power Menu,Cantina Power Burrito (Veggie),,3.94
+Cantina Power Menu,Cantina Power Burrito (Steak),,4.15
+Cravings Menu,Beefy Fritos Burrito,,1.04
+Cravings Menu,Beefy Mini Quesadilla,,1.04
+Cravings Menu,Spicy Potato Soft Taco,,1.04
+Cravings Menu,Spicy Tostada,,1.04
+Cravings Menu,Cheesy Bean & Rice Burrito,,1.04
+Cravings Menu,Cheese Roll-Up,,1.04
+Cravings Menu,Chicken Mini Quesadilla,,1.04
+Cravings Menu,Triple Layer Nachos,,1.04
+Meal DealsIncludes Medium Drink & Doritos Chips,Shredded Chicken Burrito,,2.9
+Meal DealsIncludes Medium Drink & Doritos Chips,Double Decker Taco,,2.9
+Meal DealsIncludes Medium Drink & Doritos Chips,Beef Gordita Supreme,,2.9
+Meal DealsIncludes Medium Drink & Doritos Chips,Beefy 5-Layer Burrito,,2.9
+Drinks,Soft Drink,16 oz.,1.55
+Drinks,Soft Drink,20 oz.,1.65
+Drinks,Soft Drink,30 oz.,1.97
+Drinks,Soft Drink,40 oz.,2.07
+Drinks,"Freeze (Mtn Dew®Baja Blast, Starburst Strawberry, or Starburst Cherry)",Regular,2.38
+Drinks,"Freeze (Mtn Dew®Baja Blast, Starburst Strawberry, or Starburst Cherry)",Large,2.69
+Drinks,Orange Juice,,2.07
+Drinks,Premium Hot Coffee,,1.55
+Drinks,Premium Iced Coffee,,1.55
+Loaded Grillers,Loaded Griller (Potato),,1.55
+Loaded Grillers,Loaded Griller (Chipotle Chicken),,1.55
+Loaded Grillers,Loaded Griller (Beefy Nacho),,1.55
+Limited Time,Boss Nachos (Beef),,5.19
+Limited Time,Boss Nachos (Chicken),,6.02
+Limited Time,Boss Nachos (Steak),,6.23
+Limited Time,Boss Nachos (Beef) with Soda,,6.23
+Limited Time,Boss Nachos (Chicken) with Soda,,7.06
+Limited Time,Boss Nachos (Steak) with Soda,,7.27
+Limited Time,Cheddar Chalupa,,3.11
+Limited Time,Nacho Fries,,1.45
+Limited Time,Quesalupa,,3.11
+Limited Time,Chalupa Cravings,,5.2
+Limited Time,Beefy Potato-rito,,1.04
+Limited Time,Supreme Taco Party Pack,12 Pc.,16.63
+Limited Time,Supreme Variety Pack (6 Supreme Tacos & 6 Doritos Tacos),12 Pc.,18.71
+Limited Time,Variety Taco 12 Pack,12 Pc.,14.55
+Limited Time,Cinnamon Twists,,1.04
+Sides,Cheesy Fiesta Potatoes,,1.34
+Sides,Chips & Cheese,,1.45
+Sides,Chips & Pico De Gallo,,1.55
+Sides,Chips & Guacamole,,1.55
+Sides,Pintos N Cheese,,1.24
+Sides,Premium Latin Rice,,1.55
+Sides,Black Beans & Rice,,1.55
+Sides,Black Beans,,1.55
+Sides,Doritos Chips,Bag,0.82
+Sides,Side of Bacon,,0.52
+Sides,Side of Sausage Patty,,1.25
+Sides,Side of Egg,,0.31

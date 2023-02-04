@@ -1,0 +1,60 @@
+Type,Food,Size,Price
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Big Mac,,4.15
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Big Mac – Meal,,6.23
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,2 Cheeseburgers,,2.08
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,2 Cheeseburgers – Meal,,5.09
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Quarter Pounder with Cheese,,3.94
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Quarter Pounder with Cheese – Meal,,6.02
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Double Quarter Pounder with Cheese,,4.98
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Double Quarter Pounder with Cheese – Meal,,6.96
+BurgersMeals Include Medium French Fries or Salad & Soft Drink,Bacon Clubhouse Burger,,4.67
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Bacon Clubhouse Burger – Meal,,6.75
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Buttermilk Crispy Chicken,,4.57
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Buttermilk Crispy Chicken – Meal,,6.65
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Artisan Grilled Chicken,,4.57
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Artisan Grilled Chicken – Meal,,6.65
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Premium McWrap Chicken & Bacon (Grilled or Crispy),,4.57
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Premium McWrap Chicken & Ranch (Grilled or Crispy),,4.57
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Premium McWrap Sweet Chili Chicken (Grilled or Crispy),,4.57
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Filet-O-Fish,,3.94
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Filet-O-Fish – Meal,,6.02
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Double Filet-O-Fish,,4.98
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Double Filet-O-Fish – Meal,,7.06
+Chicken & SandwichesMeals Include Medium French Fries or Salad & Soft Drink,Premium Chicken Bacon Clubhouse (Grilled or Crispy),,4.67
+NuggetsMeals Include Medium French Fries or Salad & Soft Drink,Chicken McNuggets (Regular or Spicy),10 Pc.,4.67
+NuggetsMeals Include Medium French Fries or Salad & Soft Drink,Chicken McNuggets – Meal (Regular or Spicy),10 Pc.,6.75
+NuggetsMeals Include Medium French Fries or Salad & Soft Drink,Chicken McNuggets (Regular or Spicy),20 Pc.,5.2
+NuggetsMeals Include Medium French Fries or Salad & Soft Drink,Chicken McNuggets (Regular or Spicy),40 Pc.,9.35
+SaladsGrilled or Crispy Chicken,Southwest Salad,,4.98
+SaladsGrilled or Crispy Chicken,Bacon Ranch Salad,,4.77
+Snacks & Sides,Donut Sticks,,2.69
+Snacks & Sides,French Fries,Small,1.45
+Snacks & Sides,French Fries,Medium,1.86
+Snacks & Sides,French Fries,Large,1.97
+Snacks & Sides,"Minute Maid Slushie (Blue Rapsberry, Fruit Punch, Pink Lemonade)",,2.08
+Snacks & Sides,Apple Slices,,1.04
+Desserts & Shakes,"Shake (Chocolate, Vanilla, or Strawberry)",Small,2.28
+Desserts & Shakes,"Shake (Chocolate, Vanilla, or Strawberry)",Medium,2.69
+Desserts & Shakes,"Shake (Chocolate, Vanilla, or Strawberry)",Large,3.11
+Desserts & Shakes,Sundae (Hot Fudge or Caramel),,1.34
+Desserts & Shakes,Cone (Vanilla),,1.04
+Desserts & Shakes,McFlurry,Snack,1.86
+Desserts & Shakes,McFlurry,Regular,2.49
+"Happy MealsIncludes Kids French Fries, Side & Drink",Chicken McNuggets,4 Pc.,3.42
+"Happy MealsIncludes Kids French Fries, Side & Drink",Hamburger,,2.59
+"Happy MealsIncludes Kids French Fries, Side & Drink",Cheeseburger,,2.9
+Oatmeal,Fruit & Maple Oatmeal,,2.07
+$1 $2 $3 Menu,Soft Drink,Small,1.04
+$1 $2 $3 Menu,Specialty McCafé® beverages,Small,2.08
+Limited Time Offers,McRib,,3.84
+Limited Time Offers,Holiday Pie,,0.93
+Limited Time Offers,Spicy McChicken,,1.04
+Limited Time Offers,Shamrock Shake,Small,2.28
+Limited Time Offers,Shamrock Shake,Medium,2.69
+Limited Time Offers,Shamrock Shake,Large,3.11
+Limited Time Offers,Spicy Chicken McNuggets,10 Pc.,4.52
+Limited Time Offers,Frozen Strawberry Lemonade,Medium,2.69
+Limited Time Offers,Angus Chipotle BBQ Burger,,10.14
+Limited Time Offers,Cherry Berry Chiller,Small,1.76
+Limited Time Offers,Cherry Berry Chiller,Medium,2.07
+Limited Time Offers,Cherry Berry Chiller,Large,2.38
