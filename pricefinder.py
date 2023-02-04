@@ -101,10 +101,8 @@ class PriceFinder:
         this_chain = this_chain.transpose()
 
         one_option = pd.concat((one_option,this_chain))
-
-
-        # this will return a list with all availabe menu items matching each option submitted 
-        # Each index is a dataframe slice that corresponds with the index of the submitted option list  
+ 
+        one_option = one_option.to_numpy() # converting to numpy array so it becomes hashable 
         return one_option
 
 
