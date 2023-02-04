@@ -37,14 +37,14 @@ class PriceFinder:
 
         # creating list of options the user will be able to choose from
         self.foods = [ 'nugget','finger', 'burger', 'chicken sandwhich', 'chicken sandwich', 'fries', 'salads', 'pizza', 'tacos', 'tacos', 'burritos', 'nachos', 'breadsticks' ]
-        self.beverages = [ 'soft drink', 'bottled water', 'lemonade', 'sweet tea' ]
+        self.drinks = [ 'soft drink', 'bottled water', 'lemonade', 'sweet tea' ]
         self.desserts = [ 'milkshakes', 'cookies']
 
 
     # __str__ function to return the collection of dataframes within the chain_collection
     def __str__(self):
         #return "The fast food chains included in this class are: " + str(self.chain_collection_list)
-        return f"The items are {', '.join(str(i) for i in self.chain_collection_list)}"
+        return f"The fast food chains used in this class are: {', '.join(str(i) for i in self.chain_collection_list)}"
 
 # FUNCTIONS TO CHOOSE DATA 
 #------------------------------------------------------------------------------------------------------------------------------------
