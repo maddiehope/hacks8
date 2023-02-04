@@ -1,127 +1,127 @@
 Type,Food,Size,Price
-Meals,Chick-fil-A Chicken Sandwich,,3.9
-Meals,Chick-fil-A Chicken Sandwich – Combo,,7.62
-Meals,Chick-fil-A Chicken Deluxe Sandwich,,4.67
-Meals,Chick-fil-A Chicken Deluxe Sandwich – Combo,,8.38
-Meals,Spicy Chicken Sandwich,,4.21
-Meals,Spicy Chicken Sandwich – Combo,,7.92
-Meals,Spicy Chicken Deluxe Sandwich,,4.98
-Meals,Spicy Chicken Deluxe Sandwich – Combo,,8.69
-Meals,Chick-fil-A Nuggets,8 Pc.,3.9
-Meals,Chick-fil-A Nuggets,12 Pc.,5.7
-Meals,Chick-fil-A Nuggets – Combo,8 Pc.,7.62
-Meals,Chick-fil-A Nuggets – Combo,12 Pc.,11.0
-Meals,Chick-fil-A Nuggets (Grilled),8 Pc.,4.93
-Meals,Chick-fil-A Nuggets (Grilled),12 Pc.,7.36
-Meals,Chick-fil-A Nuggets (Grilled) – Combo,8 Pc.,8.64
-Meals,Chick-fil-A Nuggets (Grilled) – Combo,12 Pc.,11.0
-Meals,Chick-n-Strips,3 Pc.,4.29
-Meals,Chick-n-Strips,4 Pc.,5.62
-Meals,Chick-n-Strips – Combo,3 Pc.,8.0
-Meals,Chick-n-Strips – Combo,4 Pc.,9.28
-Meals,Grilled Chicken Sandwich,,5.62
-Meals,Grilled Chicken Sandwich – Combo,,9.2
-Meals,Grilled Chicken Club Sandwich,,7.16
-Meals,Grilled Chicken Club Sandwich – Combo,,10.74
-Meals,Chicken Salad Sandwich,,5.11
-Meals,Chicken Salad Sandwich – Combo,,8.69
-Meals,Grilled Chicken Cool Wrap,,6.64
-Meals,Grilled Chicken Cool Wrap – Combo,,10.43
-Meals,Soup & Salad (Large Chicken Soup and Side Salad),,10.69
-Meals,Chilled Grilled Chicken Sub Sandwich (Limited Time),,6.13
-Meals,Substitute Medium Premium Side,,1.28
-Meals,Upsize Fries & Drink,,0.59
-Classic Sides,Waffle Potato Fries,Small,1.98
-Classic Sides,Waffle Potato Fries,Medium,2.11
-Classic Sides,Waffle Potato Fries,Large,2.37
-Classic Sides,Baked Potato with Butter,,2.11
-Premium Sides,Yogurt Parfait,,3.14
-Premium Sides,Fruit Cup,Small,2.62
-Premium Sides,Fruit Cup,Medium,3.52
-Premium Sides,Fruit Cup,Large,5.44
-Premium Sides,Side Salad,,3.7
-Premium Sides,Chicken Soup,Medium,3.39
-Premium Sides,Chicken Soup,Large,5.57
-Premium Sides,Chicken Tortilla Soup (Limited Time),Medium,4.8
-Premium Sides,Chicken Tortilla Soup (Limited Time),Large,7.74
-Premium Sides,Superfood Salad (Limited Time),Medium,3.7
-Premium Sides,Superfood Salad (Limited Time),Large,4.98
-Premium Sides,Chicken Salad Cup,Medium,4.08
-Premium Sides,Chicken Salad Cup,Large,6.59
-Premium Sides,Loaded Baked Potato (Limited Time),,3.39
-Kid’s Meals,Nuggets,4 Pc.,4.29
-Kid’s Meals,Nuggets,6 Pc.,5.18
-Kid’s Meals,Grilled Nuggets,4 Pc.,4.8
-Kid’s Meals,Grilled Nuggets,6 Pc.,5.95
-Kid’s Meals,Chick-n-Strips,1 Pc.,3.9
-Kid’s Meals,Chick-n-Strips,2 Pc.,5.24
-Salads,Asian Salad,,9.2
-Salads,Cobb Salad,,9.2
-Salads,Grilled Market Salad,,9.2
-Salads,Grilled Market Salad w/ No Chicken,,7.92
-Salads,Grilled Market Salad w/ Chick-fil-A Filet,,10.48
-Salads,Grilled Market Salad w/ Chick-n-Strips,,10.48
-Salads,Grilled Market Salad w/ Grilled Filet (Cold),,10.48
-Salads,Grilled Market Salad w/ Grilled Filet (Warm),,10.48
-Salads,Grilled Market Salad w/ Grilled Nuggets,,10.48
-Salads,Grilled Market Salad w/ Nuggets,,10.48
-Salads,Grilled Market Salad w/ Spicy Filet,,10.48
-Salads,Grilled Market Salad w/ Spicy Grilled Filet (Cold),,10.48
-Desserts,"Hand-Spun Milkshakes (Cookies & Cream, Chocolate, Strawberry, or Vanilla)",Small,3.52
-Desserts,"Hand-Spun Milkshakes (Cookies & Cream, Chocolate, Strawberry, or Vanilla)",Large,4.03
-Desserts,Frosted Lemonade (Limited Time),,3.52
-Desserts,Icedream Cone,Small,1.6
-Desserts,Icedream Cone,Large,2.11
-Desserts,Icedream Cup,Small,2.04
-Desserts,Icedream Cup,Large,2.37
-Desserts,Icedream Topping,,0.32
-Desserts,Chocolate Chunk Cookie,1 Pc.,1.52
-Desserts,Chocolate Chunk Cookie,6 Pc.,8.51
-Breakfast Meals,Chick-fil-A Chicken Biscuit,,2.8
-Breakfast Meals,Chick-fil-A Chicken Biscuit – Combo,,5.75
-Breakfast Meals,Chick-n-Minis,3 Pc.,2.93
-Breakfast Meals,Chick-n-Minis,4 Pc.,3.83
-Breakfast Meals,Chick-n-Minis – Combo,3 Pc.,5.95
-Breakfast Meals,Chick-n-Minis – Combo,4 Pc.,6.77
-Breakfast Meals,Buttered Biscuit,,1.14
-Breakfast Meals,"Bacon, Egg & Cheese Biscuit",,3.32
-Breakfast Meals,"Bacon, Egg & Cheese Biscuit – Combo",,6.34
-Breakfast Meals,Spicy Chicken Biscuit,,3.01
-Breakfast Meals,Spicy Chicken Biscuit – Combo,,5.95
-Breakfast Meals,Breakfast Burrito (Chicken or Sausage),,3.26
-Breakfast Meals,Breakfast Burrito (Chicken or Sausage) – Combo,,6.21
-Breakfast Meals,"Sausage, Egg & Cheese Biscuit",,3.32
-Breakfast Meals,"Sausage, Egg & Cheese Biscuit – Combo",,6.34
-Breakfast Meals,"Chicken, Egg & Cheese Bagel",,4.34
-Breakfast Meals,"Chicken, Egg & Cheese Bagel – Combo",,7.23
-Breakfast Meals,Oatmeal,,3.44
-Breakfast Meals,Oatmeal & Fruit – Combo,,8.56
-Breakfast Meals,Fruit Cup,Small,2.62
-Breakfast Meals,Fruit Cup,Medium,3.52
-Breakfast Meals,Fruit Cup,Large,5.44
-Breakfast Meals,Plain Bagel,,1.65
-Breakfast Meals,Bagel with Cream Cheese,,2.29
-Breakfast Meals,Hash Browns,,1.27
-Breakfast Meals,Yogurt Parfait,,3.14
-Breakfast Meals,Cinnamon Cluster,,2.5
-Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Small,1.98
-Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Medium,2.29
-Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Large,2.68
-Beverages,Iced Tea (Sweet or Unsweetened),Small,1.73
-Beverages,Iced Tea (Sweet or Unsweetened),Medium,2.04
-Beverages,Iced Tea (Sweet or Unsweetened),Large,2.37
-Beverages,Soft Drinks,Small,1.73
-Beverages,Soft Drinks,Medium,2.04
-Beverages,Soft Drinks,Large,2.37
-Beverages,Dasani Water,Bottle,2.04
-Beverages,Simply Orange Juice,Bottle,2.75
-Beverages,Apple Juice,,1.4
-Beverages,Freshly-Brewed Tea,1 Gallon,5.76
-Beverages,Fresh-Squeezed Lemonade,1 Gallon,12.16
-Beverages,Iced Coffee (Original or Vanilla),Medium,3.01
-Beverages,Iced Coffee (Original or Vanilla),Large,3.39
-Beverages,Coffee,Small,2.11
-Beverages,Coffee,Medium,2.5
-Beverages,Coffee,Large,2.75
-Beverages,Coffee,To-Go Box,16.32
-Beverages,1% Milk Plain or Chocolate,,1.52
+Meals,Chick-fil-A Chicken Sandwich,,3.17
+Meals,Chick-fil-A Chicken Sandwich – Combo,,6.19
+Meals,Chick-fil-A Chicken Deluxe Sandwich,,3.8
+Meals,Chick-fil-A Chicken Deluxe Sandwich – Combo,,6.81
+Meals,Spicy Chicken Sandwich,,3.42
+Meals,Spicy Chicken Sandwich – Combo,,6.44
+Meals,Spicy Chicken Deluxe Sandwich,,4.05
+Meals,Spicy Chicken Deluxe Sandwich – Combo,,7.06
+Meals,Chick-fil-A Nuggets,8 Pc.,3.17
+Meals,Chick-fil-A Nuggets,12 Pc.,4.63
+Meals,Chick-fil-A Nuggets – Combo,8 Pc.,6.19
+Meals,Chick-fil-A Nuggets – Combo,12 Pc.,8.93
+Meals,Chick-fil-A Nuggets (Grilled),8 Pc.,4.0
+Meals,Chick-fil-A Nuggets (Grilled),12 Pc.,5.98
+Meals,Chick-fil-A Nuggets (Grilled) – Combo,8 Pc.,7.02
+Meals,Chick-fil-A Nuggets (Grilled) – Combo,12 Pc.,8.93
+Meals,Chick-n-Strips,3 Pc.,3.48
+Meals,Chick-n-Strips,4 Pc.,4.57
+Meals,Chick-n-Strips – Combo,3 Pc.,6.5
+Meals,Chick-n-Strips – Combo,4 Pc.,7.54
+Meals,Grilled Chicken Sandwich,,4.57
+Meals,Grilled Chicken Sandwich – Combo,,7.48
+Meals,Grilled Chicken Club Sandwich,,5.81
+Meals,Grilled Chicken Club Sandwich – Combo,,8.73
+Meals,Chicken Salad Sandwich,,4.15
+Meals,Chicken Salad Sandwich – Combo,,7.06
+Meals,Grilled Chicken Cool Wrap,,5.4
+Meals,Grilled Chicken Cool Wrap – Combo,,8.48
+Meals,Soup & Salad (Large Chicken Soup and Side Salad),,8.68
+Meals,Chilled Grilled Chicken Sub Sandwich (Limited Time),,4.98
+Meals,Substitute Medium Premium Side,,1.04
+Meals,Upsize Fries & Drink,,0.48
+Classic Sides,Waffle Potato Fries,Small,1.61
+Classic Sides,Waffle Potato Fries,Medium,1.72
+Classic Sides,Waffle Potato Fries,Large,1.92
+Classic Sides,Baked Potato with Butter,,1.72
+Premium Sides,Yogurt Parfait,,2.55
+Premium Sides,Fruit Cup,Small,2.13
+Premium Sides,Fruit Cup,Medium,2.86
+Premium Sides,Fruit Cup,Large,4.42
+Premium Sides,Side Salad,,3.01
+Premium Sides,Chicken Soup,Medium,2.76
+Premium Sides,Chicken Soup,Large,4.52
+Premium Sides,Chicken Tortilla Soup (Limited Time),Medium,3.9
+Premium Sides,Chicken Tortilla Soup (Limited Time),Large,6.29
+Premium Sides,Superfood Salad (Limited Time),Medium,3.01
+Premium Sides,Superfood Salad (Limited Time),Large,4.05
+Premium Sides,Chicken Salad Cup,Medium,3.32
+Premium Sides,Chicken Salad Cup,Large,5.36
+Premium Sides,Loaded Baked Potato (Limited Time),,2.76
+Kid’s Meals,Nuggets,4 Pc.,3.48
+Kid’s Meals,Nuggets,6 Pc.,4.21
+Kid’s Meals,Grilled Nuggets,4 Pc.,3.9
+Kid’s Meals,Grilled Nuggets,6 Pc.,4.84
+Kid’s Meals,Chick-n-Strips,1 Pc.,3.17
+Kid’s Meals,Chick-n-Strips,2 Pc.,4.25
+Salads,Asian Salad,,7.48
+Salads,Cobb Salad,,7.48
+Salads,Grilled Market Salad,,7.48
+Salads,Grilled Market Salad w/ No Chicken,,6.44
+Salads,Grilled Market Salad w/ Chick-fil-A Filet,,8.52
+Salads,Grilled Market Salad w/ Chick-n-Strips,,8.52
+Salads,Grilled Market Salad w/ Grilled Filet (Cold),,8.52
+Salads,Grilled Market Salad w/ Grilled Filet (Warm),,8.52
+Salads,Grilled Market Salad w/ Grilled Nuggets,,8.52
+Salads,Grilled Market Salad w/ Nuggets,,8.52
+Salads,Grilled Market Salad w/ Spicy Filet,,8.52
+Salads,Grilled Market Salad w/ Spicy Grilled Filet (Cold),,8.52
+Desserts,"Hand-Spun Milkshakes (Cookies & Cream, Chocolate, Strawberry, or Vanilla)",Small,2.86
+Desserts,"Hand-Spun Milkshakes (Cookies & Cream, Chocolate, Strawberry, or Vanilla)",Large,3.28
+Desserts,Frosted Lemonade (Limited Time),,2.86
+Desserts,Icedream Cone,Small,1.3
+Desserts,Icedream Cone,Large,1.72
+Desserts,Icedream Cup,Small,1.65
+Desserts,Icedream Cup,Large,1.92
+Desserts,Icedream Topping,,0.26
+Desserts,Chocolate Chunk Cookie,1 Pc.,1.24
+Desserts,Chocolate Chunk Cookie,6 Pc.,6.92
+Breakfast Meals,Chick-fil-A Chicken Biscuit,,2.28
+Breakfast Meals,Chick-fil-A Chicken Biscuit – Combo,,4.67
+Breakfast Meals,Chick-n-Minis,3 Pc.,2.38
+Breakfast Meals,Chick-n-Minis,4 Pc.,3.11
+Breakfast Meals,Chick-n-Minis – Combo,3 Pc.,4.84
+Breakfast Meals,Chick-n-Minis – Combo,4 Pc.,5.5
+Breakfast Meals,Buttered Biscuit,,0.93
+Breakfast Meals,"Bacon, Egg & Cheese Biscuit",,2.69
+Breakfast Meals,"Bacon, Egg & Cheese Biscuit – Combo",,5.15
+Breakfast Meals,Spicy Chicken Biscuit,,2.44
+Breakfast Meals,Spicy Chicken Biscuit – Combo,,4.84
+Breakfast Meals,Breakfast Burrito (Chicken or Sausage),,2.65
+Breakfast Meals,Breakfast Burrito (Chicken or Sausage) – Combo,,5.04
+Breakfast Meals,"Sausage, Egg & Cheese Biscuit",,2.69
+Breakfast Meals,"Sausage, Egg & Cheese Biscuit – Combo",,5.15
+Breakfast Meals,"Chicken, Egg & Cheese Bagel",,3.53
+Breakfast Meals,"Chicken, Egg & Cheese Bagel – Combo",,5.88
+Breakfast Meals,Oatmeal,,2.8
+Breakfast Meals,Oatmeal & Fruit – Combo,,6.96
+Breakfast Meals,Fruit Cup,Small,2.13
+Breakfast Meals,Fruit Cup,Medium,2.86
+Breakfast Meals,Fruit Cup,Large,4.42
+Breakfast Meals,Plain Bagel,,1.34
+Breakfast Meals,Bagel with Cream Cheese,,1.86
+Breakfast Meals,Hash Browns,,1.03
+Breakfast Meals,Yogurt Parfait,,2.55
+Breakfast Meals,Cinnamon Cluster,,2.03
+Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Small,1.61
+Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Medium,1.86
+Beverages,Fresh-Squeezed Lemonade (Regular or Diet),Large,2.17
+Beverages,Iced Tea (Sweet or Unsweetened),Small,1.4
+Beverages,Iced Tea (Sweet or Unsweetened),Medium,1.65
+Beverages,Iced Tea (Sweet or Unsweetened),Large,1.92
+Beverages,Soft Drinks,Small,1.4
+Beverages,Soft Drinks,Medium,1.65
+Beverages,Soft Drinks,Large,1.92
+Beverages,Dasani Water,Bottle,1.65
+Beverages,Simply Orange Juice,Bottle,2.24
+Beverages,Apple Juice,,1.13
+Beverages,Freshly-Brewed Tea,1 Gallon,4.68
+Beverages,Fresh-Squeezed Lemonade,1 Gallon,9.88
+Beverages,Iced Coffee (Original or Vanilla),Medium,2.44
+Beverages,Iced Coffee (Original or Vanilla),Large,2.76
+Beverages,Coffee,Small,1.72
+Beverages,Coffee,Medium,2.03
+Beverages,Coffee,Large,2.24
+Beverages,Coffee,To-Go Box,13.26
+Beverages,1% Milk Plain or Chocolate,,1.24

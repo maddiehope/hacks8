@@ -1,0 +1,156 @@
+Type,Food,Size,Price
+Cheese Pizzas,Hand Tossed,Small (10″),6.23
+Cheese Pizzas,Hand Tossed,Medium (12″),8.31
+Cheese Pizzas,Hand Tossed,Large (14″),10.39
+Cheese Pizzas,Handmade Pan,Medium (12″),8.31
+Cheese Pizzas,Crunchy Thin Crust,Small (10″),6.23
+Cheese Pizzas,Crunchy Thin Crust,Medium (12″),8.31
+Cheese Pizzas,Crunchy Thin Crust,Large (14″),10.39
+Cheese Pizzas,Brooklyn Style,Large (14″),10.39
+Cheese Pizzas,Brooklyn Style,X-Large (16″),12.47
+Cheese Pizzas,Gluten Free Crust,Small (10″),9.35
+Specialty Pizzas,Spinach & Feta (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Spinach & Feta (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Spinach & Feta (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Spinach & Feta (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Spinach & Feta (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Wisconsin 6 Cheese (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Wisconsin 6 Cheese (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Wisconsin 6 Cheese (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Wisconsin 6 Cheese (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Wisconsin 6 Cheese (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Honolulu Hawaiian (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Honolulu Hawaiian (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Honolulu Hawaiian (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Honolulu Hawaiian (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Honolulu Hawaiian (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Philly Cheese Steak (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Philly Cheese Steak (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Philly Cheese Steak (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Philly Cheese Steak (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Philly Cheese Steak (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Pacific Veggie (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Pacific Veggie (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Pacific Veggie (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Pacific Veggie (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Pacific Veggie (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Cali Chicken Bacon Ranch™ (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Cali Chicken Bacon Ranch™ (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Cali Chicken Bacon Ranch™ (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Cali Chicken Bacon Ranch™ (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Cali Chicken Bacon Ranch™ (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Fiery Hawaiian™ (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Fiery Hawaiian™ (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Fiery Hawaiian™ (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Fiery Hawaiian™ (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Fiery Hawaiian™ (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Buffalo Chicken (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Buffalo Chicken (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,Buffalo Chicken (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Buffalo Chicken (Gluten Free Crust),Small (10″),15.59
+Specialty Pizzas,Memphis BBQ Chicken (Hand Tossed or Thin Crust),Small (10″),12.47
+Specialty Pizzas,"Memphis BBQ Chicken (Hand Tossed, Hnadmade Pan or Thin Crust)",Medium (12″),14.55
+Specialty Pizzas,"Memphis BBQ Chicken (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Specialty Pizzas,Memphis BBQ Chicken (Brooklyn Style),X-Large (16″),18.71
+Specialty Pizzas,Memphis BBQ Chicken (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,America’s Favorite Feast® (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,America’s Favorite Feast® (Hand Tossed or Thin Crust),Medium (12″),14.55
+Feast Pizzas,America’s Favorite Feast® (Handmade Pan),Medium (12″),16.11
+Feast Pizzas,"America’s Favorite Feast® (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,America’s Favorite Feast® (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,America’s Favorite Feast® (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,Bacon Cheeseburger Feast® (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,Bacon Cheeseburger Feast® (Hand Tossed or Thin Crust),Medium (12″),14.55
+Feast Pizzas,Bacon Cheeseburger Feast® (Handmade Pan),Medium (12″),16.11
+Feast Pizzas,"Bacon Cheeseburger Feast® (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,Bacon Cheeseburger Feast® (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,Bacon Cheeseburger Feast® (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,Deluxe Feast® (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,Deluxe Feast® (Hand Tossed or Thin Crust),Medium (12″),14.55
+Feast Pizzas,Deluxe Feast® (Handmade Pan),Medium (12″),16.11
+Feast Pizzas,"Deluxe Feast® (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,Deluxe Feast® (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,Deluxe Feast® (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,ExtravaganZZa Feast® (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,"ExtravaganZZa Feast® (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Feast Pizzas,"ExtravaganZZa Feast® (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,ExtravaganZZa Feast® (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,ExtravaganZZa Feast® (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,MeatZZa Feast® (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,"MeatZZa Feast® (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Feast Pizzas,"MeatZZa Feast® (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,MeatZZa Feast® (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,MeatZZa Feast® (Gluten Free Crust),Small (10″),15.59
+Feast Pizzas,Ultimate Pepperoni Feast™ (Hand Tossed or Thin Crust),Small (10″),12.47
+Feast Pizzas,"Ultimate Pepperoni Feast™ (Hand Tossed, Handmade Pan or Thin Crust)",Medium (12″),14.55
+Feast Pizzas,"Ultimate Pepperoni Feast™ (Hand Tossed, Thin Crust or Brooklyn Style)",Large (14″),16.63
+Feast Pizzas,Ultimate Pepperoni Feast™ (Brooklyn Style),X-Large (16″),18.71
+Feast Pizzas,Ultimate Pepperoni Feast™ (Gluten Free Crust),Small (10″),15.59
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Boneless Chicken,8 Pc.,6.23
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Boneless Chicken,14 Pc.,10.39
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Boneless Chicken,40 Pc.,27.03
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Wings,8 Pc.,6.75
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Wings,14 Pc.,11.43
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Wings,40 Pc.,27.03
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Specialty Chicken – Crispy Bacon & Tomato,12 Pc.,6.23
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Specialty Chicken – Classic Hot Buffalo,12 Pc.,6.23
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Specialty Chicken – Spicy Jalapeno – Pineapple,12 Pc.,6.23
+"ChickenWings Flavors: BBQ, Hot, Sweet Mango Habanero, Mild, and Plain",Specialty Chicken – Sweet BBQ Bacon,12 Pc.,6.23
+Sandwiches,Italian Sausage & Peppers,,6.23
+Sandwiches,Buffalo Chicken,,6.23
+Sandwiches,Chicken Habanero,,6.23
+Sandwiches,Mediterranean Veggie,,6.23
+Sandwiches,Philly Cheese Steak,,6.23
+Sandwiches,Chicken Bacon Ranch,,6.23
+Sandwiches,Italian,,6.23
+Sandwiches,Chicken Parm,,6.23
+Pasta,Chicken Alfredo (Dish),,6.23
+Pasta,Chicken Alfredo (Bread Bowl),,7.27
+Pasta,Italian Sausage Marinara (Dish),,6.23
+Pasta,Italian Sausage Marinara (Bread Bowl),,7.27
+Pasta,Chicken Carbonara (Dish),,7.27
+Pasta,Chicken Carbonara (Bread Bowl),,8.31
+Pasta,Pasta Primavera (Dish),,7.27
+Pasta,Pasta Primavera (Bread Bowl),,8.31
+Pasta,Build Your Own Pasta (Dish),,7.27
+Pasta,Build Your Own Pasta (Bread Bowl),,8.31
+Breads,Stuffed Cheesy Bread,8 Pc.,6.23
+Breads,Stuffed Cheesy Bread with Spinach & Feta,8 Pc.,6.23
+Breads,Stuffed Cheesy Bread with Bacon & Jalapeno,8 Pc.,6.23
+Breads,Parmesan Bread Bites,16 Pc.,3.11
+Breads,Parmesan Bread Bites,32 Pc.,5.2
+Breads,Breadsticks,8 Pc.,5.19
+Salads,Classic Garden Salad,,6.75
+Salads,Chicken Apple Pecan Salad,,6.75
+Salads,Chicken Caesar Salad,,6.75
+Chips,Lay’s® Classic Potato Chips,,0.78
+Chips,Doritos® Nacho Cheese Tortilla Chips,,0.78
+Drinks,Coke®,20 oz.,1.86
+Drinks,Coke®,2 Liter,3.11
+Drinks,Coke Zero™,20 oz.,1.86
+Drinks,Coke Zero™,2 Liter,3.11
+Drinks,Diet Coke®,20 oz.,1.86
+Drinks,Diet Coke®,2 Liter,3.11
+Drinks,Sprite,20 oz.,1.86
+Drinks,Sprite,2 Liter,3.11
+Drinks,Pibb Xtra,20 oz.,1.86
+Drinks,Dasani® Water,20 oz.,1.86
+Drinks,Orange,20 oz.,1.86
+Drinks,Orange,2 Liter,3.11
+Desserts,Domino’s Marbled Cookie Brownie,9 Pc.,6.75
+Desserts,Cinna Stix®,8 Pc.,5.19
+Desserts,Chocolate Lava Crunch Cake,2 Pc.,5.19
+Sauces,Kicker Hot Sauce,Cup,0.61
+Sauces,Sweet Mango Habanero Sauce,Cup,0.61
+Sauces,BBQ Sauce,Cup,0.61
+Sauces,Ranch,Cup,0.61
+Sauces,Blue Cheese,Cup,0.61
+Sauces,Garlic Dipping Sauce,Cup,0.61
+Sauces,Icing Dipping Sauce,Cup,0.61
+Sauces,Marinara Dipping Sauce,Cup,0.61
+Sauces,Creamy Caesar Dressing,Bag,0.61
+Sauces,Golden Italian Dressing,Bag,0.61
+Sauces,Garden Ranch,Bag,0.61
+Sauces,Fat-Free Raspberry or Balsamic Vinaigrette,Bag,0.61
+Sauces,Red Pepper Seasoning Flakes,,1.03
+Sauces,Grated Parmesan Cheese,,1.03

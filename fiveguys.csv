@@ -1,0 +1,26 @@
+Type,Food,Size,Price
+Burgers,Hamburger,,7.27
+Burgers,Cheeseburger,,8.0
+Burgers,Bacon Burger,,8.31
+Burgers,Bacon Cheeseburger,,9.04
+Burgers,Little Hamburger,,5.19
+Burgers,Little Cheeseburger,,5.92
+Burgers,Little Bacon Burger,,6.23
+Burgers,Little Bacon Cheeseburger,,6.96
+Hot Dogs,Hot Dog,,4.88
+Hot Dogs,Cheese Dog,,5.61
+Hot Dogs,Bacon Dog,,5.92
+Hot Dogs,Bacon Cheese Dog,,6.65
+Sandwiches,Veggie Sandwich,,3.84
+Sandwiches,Veggie Sandwich with Cheese,,4.57
+Sandwiches,Grilled Cheese,,4.57
+Sandwiches,BLT,,5.81
+FriesFive Guys Style or Cajun Style,Fries,Little,3.21
+FriesFive Guys Style or Cajun Style,Fries,Regular,4.36
+FriesFive Guys Style or Cajun Style,Fries,Large,6.02
+FriesFive Guys Style or Cajun Style,Cajun Fries,Little,3.21
+FriesFive Guys Style or Cajun Style,Cajun Fries,Regular,4.36
+FriesFive Guys Style or Cajun Style,Cajun Fries,Large,6.02
+Drinks,Coca Cola Products,Regular,2.49
+Drinks,Coca Cola Products,Large,2.8
+Drinks,Dasani Bottled Water,,2.17
