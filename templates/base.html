@@ -1,44 +1,90 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>FoodHack</title>
+  <title>JunkJam</title>
   <style>
 
     body {
-      background-color: #F5DEB3;
+        background-color: #e6e6e6;
+        font-family: Arial, sans-serif;
     }
-    header {
-      background-color: #8B4513;
-      color: white;
-      padding: 10px;
-      text-align: center;
+
+    .header {
+        font-family: Impact, sans-serif;
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 50px;
     }
-    nav {
-      background-color: #8B4513;
-      color: white;
-      padding: 10px;
+
+    .header h2 {
+        margin: 0;
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px;
+
+    .select-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
     }
-    select {
-      background-color: #F5DEB3;
-      color: #8B4513;
-      border: 1px solid #8B4513;
-      padding: 10px;
+
+    .select-dropdown {
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 25px;
+        color: #333;
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-right: 20px;
     }
-  </style>
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 50px;
+        background-color: #e6e6e6;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+
+    th, td {
+        border: 1px solid #333;
+        padding: 20px 40px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+
 </head>
+
 <body>
-  <header>
-    <img src="logo-darkmode.jpg" width="75" height="75">
+  
+  <header class="header">
+    <img src="logo-darkmode.jpg" width="100" height="100">
+    <h2>JunkJam</h2>
   </header>
+  
   <main>
     <section id="Price Jam">
-      <h2>Price Jam</h2>
-      <select id="restaurant-select">
+      <div class="select-container">
+
+        
+        <select id="restaurant-select" class="select-dropdown">
         <option value="chain_collection">All Restaurants</option>
         <option value="arbys">Arby's</option>
         <option value="bk">Burger King</option>
@@ -59,48 +105,85 @@
         <option value="tacobell">Taco Bell</option>
         <option value="wendys">Wendy's</option>
         <option value="zaxbys">Zaxby's</option>
-      </select>
-      <select id="recipe-select">
-      	<option value="none">None</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="burger">Burger</option>
-        <option value="fries">Fries</option>
-        <option value="drink">Drink</option>
-        <option value="dessert">Dessert</option>
-      </select>
-       <select id="recipe-select">\
-       	<option value="none">None</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="burger">Burger</option>
-        <option value="fries">Fries</option>
-        <option value="drink">Drink</option>
-        <option value="dessert">Dessert</option>
-      </select>
-       <select id="recipe-select">
-       	<option value="none">None</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="burger">Burger</option>
-        <option value="fries">Fries</option>
-        <option value="drink">Drink</option>
-        <option value="dessert">Dessert</option>
-      </select>
-       <select id="recipe-select">
-       	<option value="none">None</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="burger">Burger</option>
-        <option value="fries">Fries</option>
-        <option value="drink">Drink</option>
-        <option value="dessert">Dessert</option>
-      </select>
-       <select id="recipe-select">
-       	<option value="none">None</option>
-        <option value="sandwich">Sandwich</option>
-        <option value="burger">Burger</option>
-        <option value="fries">Fries</option>
-        <option value="drink">Drink</option>
-        <option value="dessert">Dessert</option>
-      </select>
+        </select>
+
+        
+        <select id="recipe-select">
+          <option value="none">None</option>
+         <option value="nugget">Nuggets</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select>
+
+        
+        <select id="recipe-select">
+          <option value="none">None</option>
+         <option value="nugget">Nuggets</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select>
+          
+          
+        <select id="recipe-select">
+          <option value="none">None</option>
+         <option value="nugget">Nuggets</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select> 
+
+            
+        <select id="recipe-select">
+          <option value="none">None</option>
+         <option value="nugget">Nuggets</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select>
+
+        
+        <select id="recipe-select">
+          <option value="none">None</option>
+         <option value="nugget">Nuggets</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="burger">Burger</option>
+          <option value="fries">Fries</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select>
+
+        
     </section>
   </main>
+
+<div class="center">
+  <p>
+<h4>We make it easy to save money on your favorite fast food combos!</h4>  
+</p>
+
+<p>
+To get started, select your favorite fast food restaurant from the drop down menu (or select 'All Restaurants ' to compare prices).
+</p>
+
+<p> 
+Then you can select your favorite combo of food!
+</p>
+
+<p>Click 'SUBMIT' to see some <b><em>fantastic steals of a deal.</em></b></p>
+
+  
+</div>
+  
 </body>
+
 </html>

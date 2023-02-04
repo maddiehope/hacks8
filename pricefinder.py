@@ -46,6 +46,8 @@ class PriceFinder:
         #return "The fast food chains included in this class are: " + str(self.chain_collection_list)
         return f"The fast food chains used in this class are: {', '.join(str(i) for i in self.chain_collection_list)}"
 
+        
+
 # FUNCTIONS TO CHOOSE DATA 
 #------------------------------------------------------------------------------------------------------------------------------------
     
@@ -110,19 +112,19 @@ class PriceFinder:
     #--------------------------------------------------------------
 
     def all_chain(self, options):
-
         all_options = pd.DataFrame({'Type': [], 'Food': [], 'Size': [], 'Price':[]}) # will help us combine all menu items for the options for EVERY chain
 
 
         for i,chain in enumerate(self.chain_collection): # loops once over every restaurant dataframe in the chain_collection list 
 
             df = chain
+            #print(chain_collection_list[i])
 
             # removing any 'meal' or 'combo' items (we are going to make own combos!)
             df = df[~df['Food'].str.contains('combo', case=False, na=False)]
             df = df[~df['Food'].str.contains('meal', case=False, na=False)]
-            df = df[~df['Food'].str.contains('limited', case=False, na=False)]
             df = df[~df['Food'].str.contains('upsize', case=False, na=False)]
+            df = df[~df['Food'].str.contains('limited', case=False, na=False)]
             df = df[~df['Type'].str.contains('combo', case=False, na=False)]
             df = df[~df['Type'].str.contains('limited', case=False, na=False)]
 
@@ -131,25 +133,31 @@ class PriceFinder:
 
             # finding all the desired food
             for j, item in enumerate(options): # loops once through each item in the 'options' list 
+                #print(j)
 
                 # using a mask to filter through the dataframe to choose only what the user picked
                 if df['Food'].str.contains(item, case=False, na=False).any() == True: # making sure that the chain has a menu item for the user's option
+
+                    #print(item)
 
                     slice = df[df['Food'].str.contains(item, case=False, na=False)] # filtering out desired food type using a mask
         
                     min_index = slice['Price'].idxmin()
                     min_row = df.loc[min_index]
                     o.update({self.chain_collection_list[i]+str(j): min_row})  # adding all menu items the chain has for the desired food and adding that slice to the o dictionary 
+
+                    #print(o)
             
                 this_chain = pd.DataFrame(o)
                 this_chain = this_chain.transpose()
+                #print(this_chain)
 
-            all_options = pd.concat((all_options,this_chain))
+            all_options = pd.concat((all_options,this_chain)) 
 
         for i, item in enumerate(options):
             all_options[item] = all_options[all_options['Food'].str.contains(item, case=False, na=False)]['Food']
 
-            all_options.drop(columns=['Food'], inplace=True)
+        all_options.drop(columns=['Food'], inplace=True)
 
         for i, item in enumerate(options):  
             all_options.insert(i, item, all_options.pop(item))
