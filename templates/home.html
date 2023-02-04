@@ -1,39 +1,39 @@
 {% extends "base.html" %}
 {% block content %}
-<form action="/price" method="post">
+<form action="/" method="post">
   
   <main>
     <section id="Price Jam">
       <div class="select-container">
 
         
-        <select id="chain-select" class="select-dropdown">
-        <option value="chain_collection">All Restaurants</option>
-        <option value="arbys">Arby's</option>
-        <option value="bk">Burger King</option>
-        <option value="bojangles">Bojangle's</option>
-        <option value="canes">Raising Cane's</option>
-        <option value="cfa">Chick-fil-a</option>
-        <option value="deltaco">Del Taco</option>
-        <option value="dominos">Domino's</option>
-        <option value="fiveguys">Five Guy's</option>
-        <option value="kfc">Kentuck Fried Chicken</option>
-        <option value="littleceasars">Little Ceasar's</option>
-        <option value="mcdonalds">McDonald's</option>
-        <option value="papajohns">Papa John's</option>
-        <option value="pizzahut">Pizza Hut</option>
-        <option value="popeyes">Popeye's</option>
-        <option value="sonic">Sonic</option>
-        <option value="steaknshake">Steak N Shake</option>
-        <option value="tacobell">Taco Bell</option>
-        <option value="wendys">Wendy's</option>
-        <option value="zaxbys">Zaxby's</option>
+        <select name="chain-select" id="chain-select" class="select-dropdown">
+            <option value="chain_collection">All Restaurants</option>
+            <option value="arbys">Arby's</option>
+            <option value="bk">Burger King</option>
+            <option value="bojangles">Bojangle's</option>
+            <option value="canes">Raising Cane's</option>
+            <option value="cfa">Chick-fil-a</option>
+            <option value="deltaco">Del Taco</option>
+            <option value="dominos">Domino's</option>
+            <option value="fiveguys">Five Guy's</option>
+            <option value="kfc">Kentuck Fried Chicken</option>
+            <option value="littleceasars">Little Ceasar's</option>
+            <option value="mcdonalds">McDonald's</option>
+            <option value="papajohns">Papa John's</option>
+            <option value="pizzahut">Pizza Hut</option>
+            <option value="popeyes">Popeye's</option>
+            <option value="sonic">Sonic</option>
+            <option value="steaknshake">Steak N Shake</option>
+            <option value="tacobell">Taco Bell</option>
+            <option value="wendys">Wendy's</option>
+            <option value="zaxbys">Zaxby's</option>
         </select>
 
         
-        <select id="food-select1" required> <!-- at least one selection is required or the void.html template is called -->
+        <select name="food-select1" id="food-select1"> <!-- at least one selection is required or the void.html template is called -->
           <option value="none">None</option>
-         <option value="nugget">Nuggets</option>
+          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
           <option value="burger">Burger</option>
           <option value="fries">Fries</option>
@@ -42,9 +42,9 @@
         </select>
 
         
-        <select id="food-select2">
+        <select name="food-select1" id="food-select2">
           <option value="none">None</option>
-         <option value="nugget">Nuggets</option>
+          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
           <option value="burger">Burger</option>
           <option value="fries">Fries</option>
@@ -53,9 +53,9 @@
         </select>
           
           
-        <select id="food-select3">
+        <select name="food-select1" id="food-select3">
           <option value="none">None</option>
-         <option value="nugget">Nuggets</option>
+          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
           <option value="burger">Burger</option>
           <option value="fries">Fries</option>
@@ -64,7 +64,7 @@
         </select> 
 
             
-        <select id="food-select4">
+        <select name="food-select1" id="food-select4">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
@@ -75,7 +75,7 @@
         </select>
 
         
-        <select id="food-select5">
+        <select name="food-select1" id="food-select5">
           <option value="none">None</option>
          <option value="nugget">Nuggets</option>
           <option value="sandwich">Sandwich</option>
