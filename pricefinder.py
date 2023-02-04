@@ -31,11 +31,9 @@ class PriceFinder:
         zaxbys = pd.read_csv("datasets/zaxbys.csv")
 
         # creating an iterable list of all the dataframes
-        self.chain_collection = [arbys, bk, bojangles, canes, cfa, deltaco, dominos, fiveguys, kfc, littlecaesars, mcdonalds, papajohns, pizzahut, popeyes, sonic, steaknshake,
-                                tacobell, wendys, zaxbys ]
+        self.chain_collection = [arbys, bk, bojangles, canes, cfa, deltaco, dominos, fiveguys, kfc, littlecaesars, mcdonalds, papajohns, pizzahut, popeyes, sonic, steaknshake, tacobell, wendys, zaxbys ]
 
-        self.chain_collection_list= ["arbys", "bk", "bojangles", "canes", "cfa", "deltaco", "dominos", "fiveguys", "kfc", "littlecaesars", "mcdonalds", "papajohns", "pizzahut", "popeyes",
-                             "sonic", "steaknshake", "tacobell", "wendys", "zaxbys"]
+        self.chain_collection_list= ["arbys", "bk", "bojangles", "canes", "cfa", "deltaco", "dominos", "fiveguys", "kfc", "littlecaesars", "mcdonalds", "papajohns", "pizzahut", "popeyes", "sonic", "steaknshake", "tacobell", "wendys", "zaxbys"]
 
         # creating list of options the user will be able to choose from
         self.foods = [ 'nugget','finger', 'burger', 'chicken sandwhich', 'chicken sandwich', 'fries', 'salads', 'pizza', 'tacos', 'tacos', 'burritos', 'nachos', 'breadsticks' ]
@@ -43,10 +41,9 @@ class PriceFinder:
         self.desserts = [ 'milkshakes', 'cookies']
 
 
-
     # __str__ function to return the collection of dataframes within the chain_collection
     def __str__(self):
-        return "The fast-food chains included in this class: " + self.chain_collection 
+        return "The fast-food chains included in this class: " + self.chain_collection_list
 
 # FUNCTIONS TO CHOOSE DATA 
 #------------------------------------------------------------------------------------------------------------------------------------
