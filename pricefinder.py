@@ -124,7 +124,7 @@ class PriceFinder:
                 this_chain = pd.DataFrame(o)
                 this_chain = this_chain.transpose()
 
-            all_options = pd.concat([all_options,this_chain])
+            all_options = pd.concat((all_options,this_chain))
 
         return all_options
 
