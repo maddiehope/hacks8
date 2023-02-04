@@ -1,7 +1,73 @@
 <html>
 <head>
   <title>JunkJam</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+
+    body {
+        background-color: #e6e6e6;
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        font-family: Impact, sans-serif;
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .header h2 {
+        margin: 0;
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .select-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .select-dropdown {
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 25px;
+        color: #333;
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 50px;
+        background-color: #e6e6e6;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+
+    th, td {
+        border: 1px solid #333;
+        padding: 20px 40px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333;
+        color: #fff;
+    }
   
 </head>
 
@@ -18,26 +84,26 @@
 
         
         <select id="restaurant-select" class="select-dropdown">
-          <option value="chain_collection">All Restaurants</option>
-          <option value="arbys">Arby's</option>
-          <option value="bk">Burger King</option>
-          <option value="bojangles">Bojangle's</option>
-          <option value="canes">Raising Cane's</option>
-          <option value="cfa">Chick-fil-a</option>
-          <option value="deltaco">Del Taco</option>
-          <option value="dominos">Domino's</option>
-          <option value="fiveguys">Five Guy's</option>
-          <option value="kfc">Kentuck Fried Chicken</option>
-          <option value="littleceasars">Little Ceasar's</option>
-          <option value="mcdonalds">McDonald's</option>
-          <option value="papajohns">Papa John's</option>
-          <option value="pizzahut">Pizza Hut</option>
-          <option value="popeyes">Popeye's</option>
-          <option value="sonic">Sonic</option>
-          <option value="steaknshake">Steak N Shake</option>
-          <option value="tacobell">Taco Bell</option>
-          <option value="wendys">Wendy's</option>
-          <option value="zaxbys">Zaxby's</option>
+        <option value="chain_collection">All Restaurants</option>
+        <option value="arbys">Arby's</option>
+        <option value="bk">Burger King</option>
+        <option value="bojangles">Bojangle's</option>
+        <option value="canes">Raising Cane's</option>
+        <option value="cfa">Chick-fil-a</option>
+        <option value="deltaco">Del Taco</option>
+        <option value="dominos">Domino's</option>
+        <option value="fiveguys">Five Guy's</option>
+        <option value="kfc">Kentuck Fried Chicken</option>
+        <option value="littleceasars">Little Ceasar's</option>
+        <option value="mcdonalds">McDonald's</option>
+        <option value="papajohns">Papa John's</option>
+        <option value="pizzahut">Pizza Hut</option>
+        <option value="popeyes">Popeye's</option>
+        <option value="sonic">Sonic</option>
+        <option value="steaknshake">Steak N Shake</option>
+        <option value="tacobell">Taco Bell</option>
+        <option value="wendys">Wendy's</option>
+        <option value="zaxbys">Zaxby's</option>
         </select>
 
         
