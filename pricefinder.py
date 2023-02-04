@@ -46,6 +46,8 @@ class PriceFinder:
         #return "The fast food chains included in this class are: " + str(self.chain_collection_list)
         return f"The fast food chains used in this class are: {', '.join(str(i) for i in self.chain_collection_list)}"
 
+        
+
 # FUNCTIONS TO CHOOSE DATA 
 #------------------------------------------------------------------------------------------------------------------------------------
     
