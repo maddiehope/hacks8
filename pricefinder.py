@@ -113,7 +113,7 @@ class PriceFinder:
         all_options = pd.DataFrame({'Type': [], 'Food': [], 'Size': [], 'Price':[]}) # will help us combine all menu items for the options for EVERY chain
 
 
-        for i,chain in enumerate(chain_collection): # loops once over every restaurant dataframe in the chain_collection list 
+        for i,chain in enumerate(self.chain_collection): # loops once over every restaurant dataframe in the chain_collection list 
 
             df = chain
             #print(chain_collection_list[i])
@@ -142,7 +142,7 @@ class PriceFinder:
         
                     min_index = slice['Price'].idxmin()
                     min_row = df.loc[min_index]
-                    o.update({chain_collection_list[i]+str(j): min_row})  # adding all menu items the chain has for the desired food and adding that slice to the o dictionary 
+                    o.update({self.chain_collection_list[i]+str(j): min_row})  # adding all menu items the chain has for the desired food and adding that slice to the o dictionary 
 
                     #print(o)
             
@@ -154,7 +154,7 @@ class PriceFinder:
 
         for i, item in enumerate(options):
             all_options[item] = all_options[all_options['Food'].str.contains(item, case=False, na=False)]['Food']
-            
+
         all_options.drop(columns=['Food'], inplace=True)
 
         for i, item in enumerate(options):  
