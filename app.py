@@ -44,7 +44,7 @@ def price():
 
         elif chain_select == "chain_collection":
             selections = pricefinder.all_chain(select_items)
-            df = pd.DataFrame(selection) 
+            df = pd.DataFrame(selections) 
 
     # create error function in case user forgets to make any food selections
     except:
