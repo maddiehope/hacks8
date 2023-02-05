@@ -58,7 +58,7 @@ def price():
             df[items + "(size)"] = df.apply(lambda x: str(x[i+1]) + " (" + str(x[4-i]) + ")" if x[i+1] and x[4-i] else '', axis=1)
             df = df.drop(columns = [items], axis = 1)
     
-        df = df.drop(columns = ['Size', 'Type'], axis =1
+        df = df.drop(columns = ['Size', 'Type'], axis =1)
 
         df = df.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
 
