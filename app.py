@@ -40,9 +40,7 @@ def price():
         select_items = [food_select1, food_select2, food_select3, food_select4, food_select5]
 
         # removing the select items if they are "none"
-        for i in range(4):
-            if select_items[i] == None:
-                del select_items[i]
+        select_items = [item for item in select_items if 'none' not in item]
 
         if chain_select != "chain_collection":
             selection = pricefinder.one_chain(chain_select, select_items)
@@ -53,26 +51,26 @@ def price():
             df = pd.DataFrame(selections) 
             
 
-        # aesthetics/re-configuring datasets for display
-        for i, items in enumerate(select_items):
-            df[items + "(size)"] = df.apply(lambda x: str(x[i+1]) + " (" + str(x[4-i]) + ")" if x[i+1] and x[4-i] else '', axis=1)
-            df = df.drop(columns = [items], axis = 1)
+            # aesthetics/re-configuring datasets for display
+
+            ## put in price finder
+            #for i, items in enumerate(select_items):
+                #df[items + "(size)"] = df.apply(lambda x: str(x[i+1]) + " (" + str(x[4-i]) + ")" if x[i+1] and x[4-i] else '', axis=1)
+                #df = df.drop(columns = [items], axis = 1)
     
-        df = df.drop(columns = ['Size', 'Type'], axis =1)
+            #df = df.drop(columns = ['Size', 'Type'], axis =1)
+            ##
+            
+            #df = df.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
 
-        df = df.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
+            #substring = 'none ('
 
-        substring = 'none ('
+            #df = df[~df.applymap(lambda x: isinstance(x, str) and substring in x).any(axis=1)]
 
-        def remove_substring(x):
-            if isinstance(x, str) and substring in x:
-                return False
-            return True
-
-        df = df[df.applymap(remove_substring).all(axis=1)]
-
-        df = df.set_index('chain')
-        df = df.assign(**{df.columns[0]: df.pop(df.columns[0]).shift(-1)})
+            #df = df.set_index('chain')
+            #df = df.assign(**{df.columns[0]: df.pop(df.columns[0]).shift(-1)})
+            #df = df.reset_index()
+            #df = df.rename({'chain': 'Chain'}, axis=1)
 
 
     # create error function in case user forgets to make any food selections

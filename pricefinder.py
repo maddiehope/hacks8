@@ -167,6 +167,30 @@ class PriceFinder:
 
         all_options["chain"] = all_options["chain"].str.slice(stop=-1)
 
+        for i, items in enumerate(options):
+            all_options[items + "(size)"] = all_options.apply(lambda x: str(x[i+1]) + " (" + str(x['Size']) + ")" if x[i+1] and x['Size'] else '', axis=1)
+            all_options = all_options.drop(columns = [items], axis = 1)
+    
+        all_options = all_options.drop(columns = ['Size', 'Type'], axis =1)
+
+        all_options = all_options.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
+
+
+        #### unsure
+        substring = 'none ('
+
+        all_options = all_options[~all_options.applymap(lambda x: isinstance(x, str) and substring in x).any(axis=1)]
+
+        all_options = all_options.set_index('chain')
+        all_options = all_options.assign(**{all_options.columns[0]: all_options.pop(all_options.columns[0]).shift(-1)})
+        all_options = all_options.reset_index()
+        all_options = all_options.rename({'chain': 'Chain'}, axis=1)
+
+        df.sort_values(by='Price', ascending=True, inplace=True)
+
+        df = df.dropna()
+        #### 
+        
         all_options = all_options.to_records(index=False) # converting to numpy array so it becomes hashable 
 
         return all_options

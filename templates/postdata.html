@@ -3,12 +3,10 @@
 
 <form action="/price" method="post" enctype="multipart/form-data">
     
-    {{ df.to_html(classes="table table-striped") | safe}}
+    {{ df.to_html(classes="table table-striped", index = False) | safe}}
     
     <br>
-    <button class="button" onclick= href ='/'">Go to home</button>
-    <br>
-
+    <a href="/" class="back-button">Go Back</a>
     </form>
     
 {% endblock content %}
