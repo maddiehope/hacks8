@@ -55,7 +55,7 @@ def price():
         return error()
 
     # once this process is done, the user is returned to the home page 
-    return render_template("postdata.html",title="Prices")
+    return render_template("postdata.html",df=df,title="Prices")
 
 # error function 
 @app.route('/error', methods=['POST'])
