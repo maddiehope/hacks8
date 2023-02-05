@@ -17,12 +17,12 @@ app = Flask(__name__, template_folder='templates')
 CORS(app)
 
 # creating the "Home" page for route "/"
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def selection():
     return render_template("home.html",title="Home") # will return the "home.html" template, i.e. the selection menu
 
 # takes the data from user selection and passes it into the PriceFinder() functions
-@app.route('/price', methods=['GET', 'POST'])
+@app.route('/price', methods=['POST'])
 def price():
 
     # tries to proceed how intended

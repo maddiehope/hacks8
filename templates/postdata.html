@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<form action="/price" method="post">
+<form action="/price" method="post" enctype="multipart/form-data">
     
     {{ df.to_html(classes="table table-striped") | safe}}
     
