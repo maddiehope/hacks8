@@ -52,6 +52,8 @@ def price():
             selections = pricefinder.all_chain(select_items)
             df = pd.DataFrame(selections) 
 
+        #custom_headers = ['Column 1', 'Column 2']
+
     # create error function in case user forgets to make any food selections
     except:
         return error()

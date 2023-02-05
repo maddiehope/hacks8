@@ -104,7 +104,7 @@ class PriceFinder:
 
         one_option = pd.concat((one_option,this_chain))
  
-        one_option = one_option.to_numpy() # converting to numpy array so it becomes hashable 
+        one_option = one_option.to_records(index=False) # converting to numpy array so it becomes hashable 
         return one_option
 
 
@@ -153,7 +153,7 @@ class PriceFinder:
                 #print(this_chain)
 
             all_options = pd.concat((all_options,this_chain)) 
-
+ 
         for i, item in enumerate(options):
             all_options[item] = all_options[all_options['Food'].str.contains(item, case=False, na=False)]['Food']
 
@@ -167,7 +167,7 @@ class PriceFinder:
 
         all_options["chain"] = all_options["chain"].str.slice(stop=-1)
 
-        all_options = all_options.to_numpy() # converting to numpy array so it becomes hashable 
+        all_options = all_options.to_records(index=False) # converting to numpy array so it becomes hashable 
 
         return all_options
 
