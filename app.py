@@ -51,8 +51,30 @@ def price():
         elif chain_select == "chain_collection":
             selections = pricefinder.all_chain(select_items)
             df = pd.DataFrame(selections) 
+            
+        
+        for i, items in enumerate(select_items):
+            df[items + "(size)"] = df.apply(lambda x: str(x[i+1]) + " (" + str(x[4-i]) + ")" if x[i+1] and x[4-i] else '', axis=1)
+            df = df.drop(columns = [items], axis = 1)
+    
+        df = df.drop(columns = ['Size', 'Type'], axis =1)
+        df = df.fillna('')
 
-        #custom_headers = ['Column 1', 'Column 2']
+        # replace all instances of nan (aesthetics)
+        df = df.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
+
+        substring = 'none ('
+
+        def remove_substring(x):
+            if isinstance(x, str) and substring in x:
+                return False
+            return True
+
+        df = df[df.applymap(remove_substring).all(axis=1)]
+
+        df = df.set_index('chain')
+        df = df.assign(**{df.columns[0]: df.pop(df.columns[0]).shift(-1)})
+
 
     # create error function in case user forgets to make any food selections
     except:

@@ -147,7 +147,7 @@ class PriceFinder:
                     o.update({self.chain_collection_list[i]+str(j): min_row})  # adding all menu items the chain has for the desired food and adding that slice to the o dictionary 
 
                     #print(o)
-            
+           
                 this_chain = pd.DataFrame(o)
                 this_chain = this_chain.transpose()
                 #print(this_chain)
