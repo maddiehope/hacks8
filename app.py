@@ -42,6 +42,13 @@ def price():
         # creating a list of all the food_select values 
         select_items = [food_select1, food_select2, food_select3, food_select4, food_select5]
 
+        # removing the select items if they are "none"
+        for i, item in enumerate(select_items):
+            if item == "none":
+                del select_items[i]
+
+        print(select_items)
+
         if chain_select != "chain_collection":
             selection = pricefinder.one_chain(chain_select, select_items)
             df = pd.DataFrame(selection) 
