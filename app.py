@@ -52,15 +52,14 @@ def price():
             selections = pricefinder.all_chain(select_items)
             df = pd.DataFrame(selections) 
             
-        
+
+        # aesthetics/re-configuring datasets for display
         for i, items in enumerate(select_items):
             df[items + "(size)"] = df.apply(lambda x: str(x[i+1]) + " (" + str(x[4-i]) + ")" if x[i+1] and x[4-i] else '', axis=1)
             df = df.drop(columns = [items], axis = 1)
     
-        df = df.drop(columns = ['Size', 'Type'], axis =1)
-        df = df.fillna('')
+        df = df.drop(columns = ['Size', 'Type'], axis =1
 
-        # replace all instances of nan (aesthetics)
         df = df.applymap(lambda x: x.replace('nan', 'none') if isinstance(x, str) else x)
 
         substring = 'none ('
